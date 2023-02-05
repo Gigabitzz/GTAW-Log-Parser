@@ -5,7 +5,7 @@ This program is used to convert the chat logs generated while playing on GTA Wor
 
 ## Getting Started
 
-No installation is required. Simply download the latest [release](https://github.com/AdvGTAW/GTAW-Log-Parser/releases) and run the executable.
+No installation is required. Simply download the latest [release](https://github.com/Gigabitzz/GTAW-Log-Parser/releases) and run the executable.
 
 ## Building
 
@@ -13,7 +13,7 @@ The NuGet package dependencies must be restored before compiling the project.
 
 ## Contributing
 
-1. Fork Project (<https://github.com/your_name/GTAW-Log-Parser>)
+1. Fork Project (<https://github.com/Gigabitzz/GTAW-Log-Parser>)
 2. Create Branch (`git checkout -b branch_name`)
 3. Commit (`git commit -am "Add feature_name"`)
 4. Push (`git push origin branch_name`)

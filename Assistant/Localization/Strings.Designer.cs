@@ -10,8 +10,8 @@
 
 namespace Assistant.Localization {
     using System;
-    
-    
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -23,15 +23,15 @@ namespace Assistant.Localization {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Strings {
-        
+
         private static global::System.Resources.ResourceManager resourceMan;
-        
+
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Strings() {
         }
-        
+
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -45,7 +45,7 @@ namespace Assistant.Localization {
                 return resourceMan;
             }
         }
-        
+
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
@@ -59,7 +59,7 @@ namespace Assistant.Localization {
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to A chat log assistant for GTA World.
         ///
@@ -71,7 +71,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("About", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Advanced Filter.
         /// </summary>
@@ -80,7 +80,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("AdvancedFilter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to  because the &quot;{0}&quot; directories already exist..
         /// </summary>
@@ -89,7 +89,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("AlreadyExistingDirectoriesWarning", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to An error occured while trying to disable the automatic startup function..
         /// </summary>
@@ -98,7 +98,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("AutoStartDisableError", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to An error occured while trying to enable the automatic startup function..
         /// </summary>
@@ -107,7 +107,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("AutoStartEnableError", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to This feature will stop working if you delete or move the parser to a different location..
         /// </summary>
@@ -116,7 +116,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("AutoStartWarning", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to An error occured while trying to automatically save the chat log.
         ///
@@ -127,7 +127,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("BackupError", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to An error occurent while moving the backup files to the new directory..
         /// </summary>
@@ -136,7 +136,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("BackupMoveError", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Automatic Backup: {0}.
         /// </summary>
@@ -145,7 +145,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("BackupStatus", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Automatic backup has been turned OFF, please set it up again if you wish to use it..
         /// </summary>
@@ -154,7 +154,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("BackupTurnedOff", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The automatic backup function will be turned off while the settings dialog is open and the new settings will only be applied once you close the settings dialog.
         ///
@@ -165,7 +165,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("BackupWillBeOff", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Please pick a non-root directory for your backup directory location..
         /// </summary>
@@ -174,7 +174,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("BadBackupPath", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Please choose a valid backup location or turn automatic backup off..
         /// </summary>
@@ -183,7 +183,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("BadBackupPathSave", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Please pick a non-root directory for your RAGEMP directory location..
         /// </summary>
@@ -192,7 +192,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("BadDirectoryPath", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Beta.
         /// </summary>
@@ -201,7 +201,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("Beta", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to b.
         /// </summary>
@@ -210,7 +210,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("BetaShort", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0} characters and {1} lines.
         /// </summary>
@@ -219,7 +219,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("CharacterCounter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Current time: {0}.
         /// </summary>
@@ -228,7 +228,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("CurrentTime", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Automatically found your RAGEMP directory at {0}
         ///
@@ -239,7 +239,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("DirectoryFinder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to An error occurred while trying to automatically find the location of your RAGEMP directory, please browse for it manually..
         /// </summary>
@@ -248,7 +248,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("DirectoryFinderError", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Couldn&apos;t detect the path to your RAGEMP directory, please browse for it manually..
         /// </summary>
@@ -257,7 +257,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("DirectoryFinderNotFound", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Information (First Start).
         /// </summary>
@@ -266,7 +266,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("DirectoryFinderTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to OFF.
         /// </summary>
@@ -275,7 +275,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("Disabled", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ON.
         /// </summary>
@@ -284,7 +284,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("Enabled", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
@@ -293,7 +293,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("Error", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to https://face.gta.world/.
         /// </summary>
@@ -302,7 +302,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("FacebrowserLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to https://forum.gta.world/en/index.php?/topic/7690-chat-logs/.
         /// </summary>
@@ -311,7 +311,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("FeatureShowcaseLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to An error occurred while trying to delete the file..
         /// </summary>
@@ -320,7 +320,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("FileDeleteError", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You can only have one word, number, or valid name pair on each line if you want to filter your chat log.
         ///Example: Boat, $500, John, John Doe or John_Doe.
@@ -330,7 +330,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("FilterHint", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to No matches found.
         ///
@@ -342,7 +342,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("FilterHintNoMatches", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to One or more words were skipped during the filtering operation because they are not in a valid format.
         ///
@@ -354,7 +354,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("FilterHintSkipped", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Chat log{0} loaded{1}.
         /// </summary>
@@ -363,7 +363,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("FilterLogStatus", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to An error occured while reading the selected file..
         /// </summary>
@@ -372,7 +372,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("FilterReadError", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to https://forum.gta.world/en/.
         /// </summary>
@@ -381,7 +381,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("ForumsLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Information.
         /// </summary>
@@ -390,7 +390,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("Information", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Back up the chat log automatically while the game is running (every {0} {1}).
         /// </summary>
@@ -399,7 +399,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("IntervalHint", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0}. (recommended).
         /// </summary>
@@ -408,7 +408,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("IntervalRecommended", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid RAGEMP directory path..
         /// </summary>
@@ -417,7 +417,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("InvalidDirectoryPath", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Please choose a valid RAGEMP directory location before trying to enable automatic backup..
         /// </summary>
@@ -426,7 +426,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("InvalidDirectoryPathBackup", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Please choose a valid RAGEMP directory location before trying to filter your chat log..
         /// </summary>
@@ -435,7 +435,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("InvalidDirectoryPathFilter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Language.
         /// </summary>
@@ -444,7 +444,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("Language", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The chosen language will be used to extract the chat log from the correct server.
         ///
@@ -455,7 +455,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("LanguageInfo", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to  at {0}.
         /// </summary>
@@ -464,7 +464,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("LoadedAt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to 51.178.79.228_22005.
         /// </summary>
@@ -473,7 +473,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("MainIP", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Closing the parser will prevent the automatic backups from happening.
         ///
@@ -484,7 +484,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("MinimizeInsteadOfClose", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to minutes.
         /// </summary>
@@ -493,7 +493,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("MinutePlural", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to minute.
         /// </summary>
@@ -502,7 +502,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("MinuteSingular", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Would you like to move all of your existing backup files to the new directory?.
         /// </summary>
@@ -511,7 +511,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("MoveBackups", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Multiple GTA World resource directories were found. It is advised you use a single IP to connect to the server and delete the other resource directory.
         ///
@@ -522,7 +522,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("MultipleChatLogs", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to  not.
         /// </summary>
@@ -531,7 +531,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("Negation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Can&apos;t find the GTA World chat log..
         /// </summary>
@@ -540,7 +540,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("NoChatLog", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You haven&apos;t loaded a chat log yet..
         /// </summary>
@@ -549,7 +549,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("NoChatLogLoaded", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to No updates could be found.
         ///Try checking your internet connection or increasing the update check timeout in the settings window.
@@ -561,7 +561,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("NoInternet", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You haven&apos;t filtered anything yet..
         /// </summary>
@@ -570,7 +570,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("NothingFiltered", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Did not move any directories to the new location.
         /// </summary>
@@ -579,7 +579,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("NothingMovedWarning", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You haven&apos;t parsed anything yet..
         /// </summary>
@@ -588,7 +588,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("NothingParsed", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You haven&apos;t entered any words to filter in.
         ///
@@ -599,7 +599,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("NoWordsToFilter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to An old format was detected while parsing the chat log and it is advised you delete it and all other scripts that didn&apos;t update correcly.
         ///
@@ -611,7 +611,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("OldChatLog", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Would you like to open the documentation page for the chat log parser found on the GTA World forums?.
         /// </summary>
@@ -620,7 +620,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("OpenDocumentation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Another instance is already running, check your taskbar or task manager..
         /// </summary>
@@ -629,7 +629,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("OtherInstanceRunning", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to An error occurred while parsing the chat log..
         /// </summary>
@@ -638,7 +638,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("ParseError", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Only moved the &quot;{0}&quot; directories to the new location.
         /// </summary>
@@ -647,16 +647,16 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("PartialMoveWarning", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/AdvGTAW/GTAW-Log-Parser.
+        ///   Looks up a localized string similar to https://github.com/Gigabitzz/GTAW-Log-Parser.
         /// </summary>
         internal static string ProjectLink {
             get {
                 return ResourceManager.GetString("ProjectLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Question.
         /// </summary>
@@ -665,16 +665,16 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("Question", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/AdvGTAW/GTAW-Log-Parser/releases.
+        ///   Looks up a localized string similar to https://github.com/Gigabitzz/GTAW-Log-Parser/releases.
         /// </summary>
         internal static string ReleasesLink {
             get {
                 return ResourceManager.GetString("ReleasesLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Restart.
         /// </summary>
@@ -683,7 +683,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("Restart", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You are running the latest version of the chat log parser.
         ///
@@ -694,7 +694,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("RunningLatest", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The same chat log has been backed up {0} or more times, which means that the RAGEMP client script responsible for logging your chat is broken.
         ///
@@ -707,7 +707,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("SameHashWarning", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to An error occurred while trying to save the file..
         /// </summary>
@@ -716,7 +716,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("SaveError", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to play.gta.world_22005.
         /// </summary>
@@ -725,7 +725,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("SecondaryIP", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to seconds.
         /// </summary>
@@ -734,7 +734,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("SecondPlural", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to second.
         /// </summary>
@@ -743,7 +743,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("SecondSingular", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Settings will only be applied once you close the settings dialog..
         /// </summary>
@@ -752,7 +752,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("SettingsAfterClose", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Simple Filter.
         /// </summary>
@@ -761,7 +761,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("SimpleFilter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Start.
         /// </summary>
@@ -770,7 +770,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("Start", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Successfully parsed and backed up chat log to {0}.
         /// </summary>
@@ -779,7 +779,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("SuccessfulBackup", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The parser needs to restart in order to switch to the selected server.
         ///
@@ -790,7 +790,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("SwitchServer", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to https://ucp.gta.world/.
         /// </summary>
@@ -799,7 +799,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("UCPLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0}..
         /// </summary>
@@ -808,7 +808,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("UpdateAbortTime", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to A new version of the chat log parser is now available on GitHub.
         ///
@@ -822,7 +822,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("UpdateAvailable", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Update Available.
         /// </summary>
@@ -831,7 +831,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("UpdateAvailableTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0}{1}.
         /// </summary>
@@ -840,7 +840,7 @@ namespace Assistant.Localization {
                 return ResourceManager.GetString("VersionInfo", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Warning.
         /// </summary>
