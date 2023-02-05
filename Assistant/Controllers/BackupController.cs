@@ -189,19 +189,20 @@ namespace Assistant.Controllers
                 // Get the year and the month from the fileName
                 string year = Regex.Match(fileNameDate, @"\d{4}").ToString();
                 string month = Regex.Match(fileNameDate, @"[A-Za-z]{3}").ToString();
+                string day = Regex.Match(fileNameDate, @"\d{1,2}").ToString();
 
                 // Get the time from the fileName and replace colons: 15.44.39
                 string fileNameTime = Regex.Match(fileName, @"\d{1,2}:\d{1,2}:\d{1,2}").ToString();
                 fileNameTime = fileNameTime.Replace(":", ".");
 
                 // Throw error if the chat log format is incorrect
-                if (string.IsNullOrWhiteSpace(fileName) || string.IsNullOrWhiteSpace(fileNameDate) || string.IsNullOrWhiteSpace(fileNameTime) || string.IsNullOrWhiteSpace(year) || string.IsNullOrWhiteSpace(month))
+                if (string.IsNullOrWhiteSpace(fileName) || string.IsNullOrWhiteSpace(fileNameDate) || string.IsNullOrWhiteSpace(fileNameTime) || string.IsNullOrWhiteSpace(year) || string.IsNullOrWhiteSpace(month) || string.IsNullOrWhiteSpace(day))
                     throw new IOException();
 
                 // Create the final file name: 14.NOV.2018-15.44.39
                 // and the file path categorized under the year and month
-                fileName = fileNameDate + "-" + fileNameTime + ".txt";
-                string path = $"{backupPath}{year}\\{month}\\";
+                fileName = month + "." + day + "." + year + "-" + fileNameTime + ".txt";
+                string path = $"{backupPath}";
 
                 // Make sure directory exists
                 if (!Directory.Exists(path))
@@ -220,12 +221,12 @@ namespace Assistant.Controllers
                 {
                     // If the file already exists (i.e. backed up from the interval worker)
                     // check if the current chat log is larger than the old one
-                    
+
                     // Remove any temporary files that may
                     // exist for some reason
                     if (File.Exists(path + ".temp"))
                         File.Delete(path + ".temp");
-                    
+
                     // Write a temporary file
                     using (StreamWriter sw = new StreamWriter(path + ".temp"))
                     {
