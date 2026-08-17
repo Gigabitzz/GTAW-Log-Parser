@@ -187,23 +187,25 @@ namespace Assistant.Controllers
                 {
                     using (StreamWriter sw = new StreamWriter(path + fileName))
                     {
-                        sw.Write(parsed.Replace("\n", Environment.NewLine));
+                        string stripBlankLines = parsed.Replace("\r\n", "\n").Replace("\r", "\n");
+                        sw.Write(stripBlankLines.Replace("\n", Environment.NewLine));
                     }
                 }
                 else
                 {
                     // If the file already exists (i.e. backed up from the interval worker)
                     // check if the current chat log is larger than the old one
-                    
+
                     // Remove any temporary files that may
                     // exist for some reason
                     if (File.Exists(path + ".temp"))
                         File.Delete(path + ".temp");
-                    
+
                     // Write a temporary file
                     using (StreamWriter sw = new StreamWriter(path + ".temp"))
                     {
-                        sw.Write(parsed.Replace("\n", Environment.NewLine));
+                        string stripBlankLines = parsed.Replace("\r\n", "\n").Replace("\r", "\n");
+                        sw.Write(stripBlankLines.Replace("\n", Environment.NewLine));
                     }
 
                     // Check to see which file is bigger
