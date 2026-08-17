@@ -174,8 +174,8 @@ namespace Assistant.Controllers
                     return;
 
                 DateTime startedAt = FiveMChatCaptureController.SessionStartedAt;
-                string fileName = startedAt.ToString("dd.MMM.yyyy-HH.mm.ss", System.Globalization.CultureInfo.InvariantCulture).ToUpperInvariant() + ".txt";
-                string path = Path.Combine(backupPath, startedAt.ToString("yyyy", System.Globalization.CultureInfo.InvariantCulture), startedAt.ToString("MMM", System.Globalization.CultureInfo.InvariantCulture).ToUpperInvariant()) + Path.DirectorySeparatorChar;
+                string fileName = startedAt.ToString("yyyy.MM.dd-HH.mm.ss", System.Globalization.CultureInfo.InvariantCulture).ToUpperInvariant() + ".txt";
+                string path = backupPath + Path.DirectorySeparatorChar;
 
                 // Make sure directory exists
                 if (!Directory.Exists(path))
